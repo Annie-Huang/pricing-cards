@@ -23,12 +23,15 @@ h1 {
 }
 
 .plan {
-  color: #fff;
-  background: linear-gradient(-45deg, #00a1ab, #3741a0);
+  background: linear-gradient(-45deg, #E5E3E8, #FAFAFA);
   width: 200px;
   padding: 2em;
   border-radius: 1em;
   margin: 0 0.5em;
+}
+.plan.main {
+  color: #fff;
+  background: linear-gradient(-45deg, #00a1ab, #3741a0);
 }
 
 .plan__title {
@@ -40,6 +43,10 @@ h1 {
   font-size: 3rem;
   font-weight: 900;
   margin: 0;
+  color: #00a1ab;
+}
+.plan.main .plan__price {
+  color: #FFF;
 }
 
 .plan__price span {
@@ -54,11 +61,15 @@ h1 {
 }
 
 .plan__button {
-  background: white;
-  color: #4e4e4e;
+  background: #4E4E4E;
+  color: #FFF;
   text-decoration: none;
   padding: 0.5em 0.75em;
   border-radius: 0.25em;
   text-transform: uppercase;
   font-weight: 700;
+}
+.plan.main .plan__button {
+  background: white;
+  color: #4e4e4e;
 }
