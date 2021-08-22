@@ -45,6 +45,41 @@ section {
   max-width: 1000px;
 }
 
+
+.bg-light {
+  color: #4e4e4e;
+  background: linear-gradient(-45deg, #e5e3e8, #fafafa);
+  border-radius: 1em 0 0 1em;
+}
+
+.bg-light .plan__price {
+  color: #00a1ab;
+}
+
+.bg-light .button {
+  color: white;
+  background: #4e4e4e;
+}
+
+.bg-accent {
+  color: #fff;
+  background: linear-gradient(-45deg, #00a1ab, #3741a0);
+  min-height: 422px;
+  border-radius: 1em;
+}
+
+.bg-accent .button {
+  background: white;
+  color: #4e4e4e;
+}
+
+.bg-dark {
+  color: #fff;
+  background: #4e4e4e;
+  border-radius: 0 1em 1em 0;
+}
+
+
 /* ///////////////
   Buttons
   ////////////// */
@@ -94,39 +129,6 @@ section {
   padding: 2em;
   /*border-radius: 1em;*/
   /*margin: 0 0.5em;*/
-}
-
-.plan--light {
-  color: #4e4e4e;
-  background: linear-gradient(-45deg, #e5e3e8, #fafafa);
-  border-radius: 1em 0 0 1em;
-}
-
-.plan--light .plan__price {
-  color: #00a1ab;
-}
-
-.plan--light .button {
-  color: white;
-  background: #4e4e4e;
-}
-
-.plan--accent {
-  color: #fff;
-  background: linear-gradient(-45deg, #00a1ab, #3741a0);
-  min-height: 422px;
-  border-radius: 1em;
-}
-
-.plan--accent .button {
-  background: white;
-  color: #4e4e4e;
-}
-
-.plan--dark {
-  color: #fff;
-  background: #4e4e4e;
-  border-radius: 0 1em 1em 0;
 }
 
 .plan__title {
