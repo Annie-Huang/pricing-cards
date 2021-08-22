@@ -171,7 +171,7 @@ section {
 }
 
 .team-member {
-  background: #abc;
+  /*background: #abc;*/ /***/
   text-align: left;
   flex: 1 1 45%;
   margin: 1em;
@@ -183,12 +183,14 @@ section {
   padding: 0.5em;
 }
 
+
 .team-member-light {
   flex-direction: row-reverse;
   text-align: right;
-  color: #4e4e4e;
-  background: linear-gradient(-45deg, #e5e3e8, #fafafa);
+  /*color: #4e4e4e;*/
+  /*background: linear-gradient(-45deg, #e5e3e8, #fafafa);*/
 }
+/*
 .team-member-light .name {
   color: #00a1ab;
 }
@@ -196,7 +198,7 @@ section {
   color: #fff;
   background: #4e4e4e;
 }
-
+*/
 
 .name {
   font-size: 32px;
