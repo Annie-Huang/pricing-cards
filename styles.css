@@ -17,6 +17,11 @@
 body {
   font-family: "Roboto", sans-serif;
   text-align: center;
+  /***/ /* It's required margin:0 here but I have already set it in *  */
+}
+
+section {
+  padding: 6rem 0; /***/ /* Do this in section selector rather than on .pricing and .team */
 }
 
 .section-title {
@@ -25,6 +30,7 @@ body {
   font-weight: 900;
   /*margin-top: 3em;*/
   /*margin-bottom: 0;*/
+  /***/ /* It's required margin:0 here but I have already set it in *  */
   color: #00a1ab;
 }
 
@@ -68,9 +74,12 @@ body {
   Plans
   ////////////// */
 
+/*
 .pricing {
   padding: 4em 0 6em;
 }
+*/
+
 .plans {
   display: flex;
   justify-content: center;
@@ -80,7 +89,8 @@ body {
 
 .plan {
   /*width: 200px;*/
-  width: 261px;
+  /*width: 261px;*/
+  width: 16.5rem; /***/ /* it is equals 200px (200px / 12 = 12.5) + 4em for the padding left | right */
   padding: 2em;
   /*border-radius: 1em;*/
   /*margin: 0 0.5em;*/
@@ -147,15 +157,15 @@ body {
   ////////////// */
 
 .team {
-  background: #FAFAFA;
-  padding-top: 4rem;
+  background: #FAFAFA; /**/
+  /*padding-top: 4rem;*/
 }
 
 .team-members {
   display: flex;
   flex-wrap: wrap;
   /*margin: 4rem;*/
-  padding: 4rem 0;
+  /*padding: 4rem 0;*/
 }
 
 .team-member {
