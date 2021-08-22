@@ -69,19 +69,22 @@ body {
 .plans {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin: 2em 0;
 }
 
 .plan {
-  width: 200px;
+  /*width: 200px;*/
+  width: 261px;
   padding: 2em;
-  border-radius: 1em;
-  margin: 0 0.5em;
+  /*border-radius: 1em;*/
+  /*margin: 0 0.5em;*/
 }
 
 .plan--light {
   color: #4e4e4e;
   background: linear-gradient(-45deg, #e5e3e8, #fafafa);
+  border-radius: 1em 0 0 1em;
 }
 
 .plan--light .plan__price {
@@ -96,11 +99,19 @@ body {
 .plan--accent {
   color: #fff;
   background: linear-gradient(-45deg, #00a1ab, #3741a0);
+  min-height: 422px;
+  border-radius: 1em;
 }
 
 .plan--accent .button {
   background: white;
   color: #4e4e4e;
+}
+
+.plan--dark {
+  color: #fff;
+  background: #4e4e4e;
+  border-radius: 0 1em 1em 0;
 }
 
 .plan__title {
