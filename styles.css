@@ -63,7 +63,7 @@ section {
 .bg-light {
   --bg: var(--clr-neutral-400);
   --fg: var(--clr-neutral-100);
-  --plan-price: var(--clr-primary-400);
+  --pop: var(--clr-primary-400);
 
   color: var(--clr-neutral-400);
   background: linear-gradient(-45deg, #e5e3e8, #fafafa);
@@ -73,6 +73,7 @@ section {
 .bg-accent {
   --bg: var(--clr-neutral-100);
   --fg: var(--clr-neutral-400);
+  --pop: var(--clr-neutral-100);
 
   color: var(--clr-neutral-100);
   background: linear-gradient(-45deg, #00a1ab, #3741a0);
@@ -81,6 +82,8 @@ section {
 }
 
 .bg-dark {
+  --pop: var(--clr-neutral-100);
+
   color: var(--clr-neutral-100);
   background: var(--clr-neutral-400);
   border-radius: 0 1em 1em 0;
@@ -148,7 +151,7 @@ section {
   line-height: 1;
   font-weight: 900;
   margin: 0;
-  color: var(--plan-price, var(--clr-neutral-100));
+  color: var(--pop, var(--clr-neutral-100));
 }
 
 .plan__price span {
