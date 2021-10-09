@@ -191,19 +191,19 @@ section {
   gap: 1em;
   border-radius: 0.5em;
   align-items: center;
-  /*padding: 0.5em 2em 0.5em 0.5em;*/
-  padding: 0.5em;
+  padding: 0.5em 2em 0.5em 0.5em;
+  /*padding: 0.5em;*/
   line-height: 1.6;
 }
 
 
+/*
 .team-member-light {
   flex-direction: row-reverse;
   text-align: right;
-  /*color: #4e4e4e;*/
-  /*background: linear-gradient(-45deg, #e5e3e8, #fafafa);*/
+  !*color: #4e4e4e;*!
+  !*background: linear-gradient(-45deg, #e5e3e8, #fafafa);*!
 }
-/*
 .team-member-light .name {
   color: #00a1ab;
 }
@@ -239,3 +239,10 @@ section {
   opacity: 0.8;
 }
 
+.team-member--mirrored {
+  padding: 0.5em 0.5em 0.5em 2em;
+  text-align: right;
+}
+.team-member--mirrored img {
+  order: 2;
+}
