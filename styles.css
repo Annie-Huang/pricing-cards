@@ -151,7 +151,8 @@ section {
   line-height: 1;
   font-weight: 900;
   margin: 0;
-  color: var(--pop, var(--clr-neutral-100));
+  /*color: var(--pop, var(--clr-neutral-100));*/
+  color: var(--pop);
 }
 
 .plan__price span {
@@ -192,6 +193,7 @@ section {
   align-items: center;
   /*padding: 0.5em 2em 0.5em 0.5em;*/
   padding: 0.5em;
+  line-height: 1.6;
 }
 
 
@@ -209,8 +211,6 @@ section {
   color: #fff;
   background: #4e4e4e;
 }
-*/
-
 .name {
   font-size: 32px;
 }
@@ -218,10 +218,24 @@ section {
   font-size: 14px;
   margin-bottom: 11px;
 }
+*/
 
 .team-member img {
   width: 10rem;
   border-radius: 0.25em;
+  /*margin-right: 1em; since we use gap, we don't need to use margin-right. */
 }
 
+.team-member .name { /* don't just use .name as it can be reuse somewhere else */
+  font-size: 1.75rem;
+  line-height: 1;
+  font-weight: 900;
+  color: var(--pop);
+}
+
+.team-member .position { /* same reason for .position */
+  font-weight: 400;
+  margin-bottom: 11px;
+  opacity: 0.8;
+}
 
